@@ -1,6 +1,5 @@
 package com.astontech.console;
-
-import com.astontech.another.MyTest;
+import com.astontech.bo.NewTest;
 
 import java.util.*;
 
@@ -12,7 +11,7 @@ public class Main {
         //LessonFundamentalsLAB();
         //LessonFizzBuzzLAB();
         //LessonCalculatorLab();
-        MyTest thisTest = new MyTest();
+        NewTest thisTest = new NewTest();
     }
 
     //#1 - New Private Static Method
