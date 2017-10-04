@@ -1,13 +1,16 @@
-package com.astontech;
+package com.astontech.console;
 
 import java.util.*;
+
+
 
 public class Main {
 
     public static void main(String[] args) {
         //LessonFundamentalsLAB();
         //LessonFizzBuzzLAB();
-        LessonCalculatorLab();
+        //LessonCalculatorLab();
+       // Test myTest = new Test();
     }
 
     //#1 - New Private Static Method
