@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/another/another.iml" filepath="$PROJECT_DIR$/another/another.iml" />
       <module fileurl="file://$PROJECT_DIR$/bo/bo.iml" filepath="$PROJECT_DIR$/bo/bo.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.astontech.oop.iml" filepath="$PROJECT_DIR$/com.astontech.oop.iml" />
       <module fileurl="file://$PROJECT_DIR$/console/console.iml" filepath="$PROJECT_DIR$/console/console.iml" />
