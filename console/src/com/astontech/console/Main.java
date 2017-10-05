@@ -15,7 +15,25 @@ public class Main {
         //NewTest thisTest = new NewTest();
         //System.out.println(thisTest.Test_Method());
         //LessonClassObjects();
-        LessonInheritance();
+        //LessonInheritance();
+        LessonMethods();
+    }
+
+    private static void LessonMethods(){
+
+        //what is diff between static and instance
+        //void datatype doesn't return anything
+        //private is only accessible within the class
+        //protected is available within the class and in inherited classes
+        //public is available across classes
+
+        Employee constructEmployee = new Employee("Patrick", "Hayes");
+
+        System.out.println(constructEmployee.getFirstName() + " " + constructEmployee.getLastName());
+
+        Employee constructTwo = new Employee("Simmer");
+        System.out.println(constructTwo.getLastName());
+
     }
 
     private static void LessonInheritance(){
