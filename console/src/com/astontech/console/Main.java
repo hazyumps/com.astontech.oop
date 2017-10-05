@@ -1,5 +1,6 @@
 package com.astontech.console;
-import com.astontech.bo.NewTest;
+import com.astontech.bo.Employee;
+import com.astontech.bo.Person;
 
 import java.util.*;
 
@@ -11,7 +12,33 @@ public class Main {
         //LessonFundamentalsLAB();
         //LessonFizzBuzzLAB();
         //LessonCalculatorLab();
-        NewTest thisTest = new NewTest();
+        //NewTest thisTest = new NewTest();
+        //System.out.println(thisTest.Test_Method());
+        //LessonClassObjects();
+        LessonInheritance();
+    }
+
+    private static void LessonInheritance(){
+
+        Employee employeePh = new Employee();
+
+        employeePh.setFirstName("Patrick");
+        employeePh.setLastName("Hayes");
+        employeePh.setId(4);
+
+        System.out.println(employeePh.getId() + ": " +
+                employeePh.getFirstName() + " " + employeePh.getLastName());
+
+    }
+    private static void LessonClassObjects(){
+        Person myFirstPerson = new Person();
+        myFirstPerson.setFirstName("Patty");
+        myFirstPerson.setLastName("Ice");
+        myFirstPerson.setTitle("Mr.");
+
+        System.out.print(myFirstPerson.getTitle() + " " +
+                myFirstPerson.getFirstName() + " " +
+                myFirstPerson.getLastName());
     }
 
     //#1 - New Private Static Method
